@@ -1,0 +1,87 @@
+.toolbar {
+    padding: 16px;
+}
+
+.toolbar .head {
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.toolbar .head>input {
+    border: none;
+    width: 400px;
+    outline: none;
+    padding: 6px 10px;
+    color: var(--text-color);
+    background: var(--text-bg);
+}
+
+.toolbar .head select {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    background: var(--text-bg);
+}
+
+.toolbar .head .color {
+    border: none;
+    outline: none;
+    display: flex;
+    grid-gap: 6px;
+    cursor: pointer;
+    padding: 0 10px;
+    align-items: center;
+    background: var(--text-bg);
+}
+
+.toolbar .head .color span {
+    font-size: 14px;
+}
+
+.toolbar .head .color input {
+    padding: 0;
+    width: 26px;
+    height: 26px;
+    border: none;
+    cursor: pointer;
+    background: var(--text-bg);
+}
+
+.toolbar .head .color input::-moz-color-swatch {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.toolbar .btn-toolbar {
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.toolbar .btn-toolbar button {
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    background: var(--text-bg);
+}
+
+.toolbar .btn-toolbar button:hover {
+    border-radius: 100%;
+    background: var(--hover-bg);
+}
+
+.toolbar span.separator {
+    width: 10px;
+}
