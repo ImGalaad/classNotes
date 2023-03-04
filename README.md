@@ -8,7 +8,7 @@ To get started with ClassNotes, follow these instructions:
 
 - Clone the repository to your local machine:
   - https://git-scm.com/docs/git-clone
-  - `git clone https://github.com/nom-utilisateur/nom-repo.git`
+  - `git clone https://github.com/ImGalaad/classNotes.git`
 - Open a terminal and navigate to the root directory of the project.
 - Install Django and its dependencie with: `pip install -r requirements.txt`
 - Execute the migrations by running the following command: `python3 manage.py migrate`
